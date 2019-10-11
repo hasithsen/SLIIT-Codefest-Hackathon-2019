@@ -1,2 +1,6 @@
 # SLIIT-Codefest-Hackathon-2019
 Proposed solutions for SLIIT Codefest Hackathon 2019
+
+#### Pull requests are considered.
+
+This repo is not associated with SLIIT Codefest Hackathon 2019 organization team. Shared solely for common benefit. 
