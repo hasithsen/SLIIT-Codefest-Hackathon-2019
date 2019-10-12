@@ -21,7 +21,7 @@ for i in range(count):
     lower.append(int(l))
     higher.append(int(h))
   except ValueError:
-    print("Sorry only integers are accepted.")
+    print("Sorry, only integers are accepted.")
   except:
     print("Sorry, an error occured.")
 
@@ -34,5 +34,5 @@ for i in range(count):
             if (num % i) == 0:
                 break
         else:
-           prime_count += 1 
+           prime_count += 1
   print(prime_count)

@@ -2,7 +2,7 @@
   
 # github.com/hasithsen
 # 10-11-2019
-# Sum of minimum pair
+# Find minimum sum of an element pair, each from one of two arrays
   
 import sys 
 
@@ -10,7 +10,6 @@ def get_arr(arr, len_):
   try:
     numbers = input()
     for i in range(len_):
-      #print(int(numbers.split(" ")[i].strip()), end=" ")
       arr.append(int(numbers.split(" ")[i].strip()))
   except:
     print("Sorry, an error occured")

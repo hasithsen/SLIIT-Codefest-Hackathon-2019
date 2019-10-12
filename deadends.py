@@ -10,7 +10,7 @@ def handle_err(i):
   if i == 1:
     print("Sorry, only integers are accepted")
   else:
-    print("Sorry an error occured")
+    print("Sorry, an error occured")
   sys.exit()
 
 def main():
@@ -31,11 +31,10 @@ def main():
       connections = j_info.split(" ")[1] # connected nodes list
       # check node isolation
       conn_count = len(connections.split(","))
-      #print(node, conn_count)
       if (conn_count) == 1:
         j_unsafe.append(node)
     except:
-      handle_err(1)
+      handle_err(0)
   
   if len(j_unsafe) == 0:
     print("none")
